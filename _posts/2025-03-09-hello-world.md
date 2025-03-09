@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Hello World
+title: "Watch Hesgoal: Live Football Streaming Online"
+description: "Discover Hesgoal, a reliable and free platform for live football streaming of global matches."
+slug: "watch-hesgoal-live-streaming"
 image: https://play-lh.googleusercontent.com/3RlafG5-5zNAMymy2_J3vZgnRHyFFqgTL1E_x28CiA-ItAW5PEYz1KUlQVM7WELJaB8
-categories: [content, demo]
+categories: [Sports, Streaming, Football]
 ---
+
 
 Hello and welcome. The only purpose of this post is to greet you when your site comes alive for the first time.  
 This post will demonstrate some of the more common content & elements found in posts.  
