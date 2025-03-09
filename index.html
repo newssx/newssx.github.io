@@ -5,10 +5,10 @@ layout: default
 <main class="posts">
   {% for post in paginator.posts %}
   <article class="postz">
-
-    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-    <div class="entry">
+<div class="post-image"><a href="{{ site.baseurl }}{{ post.url }}"><img class="postthumb" src="{{ post.image }}" alt="{{ post.image }}"></a></div>
+<div class="post-content">
+<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+<p class="excerpt">
       {% if post.content contains '<!--more-->' %}
 
       {{ post.excerpt }}
@@ -18,6 +18,7 @@ layout: default
       {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
 
       {% endif %}
+  </p>
     </div>
 
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more&nbsp;&#183;{% include read-time.html content=post.content %}</a>
